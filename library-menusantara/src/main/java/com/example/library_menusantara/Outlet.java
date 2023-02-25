@@ -1,7 +1,7 @@
 package com.example.library_menusantara;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
+//import androidx.annotation.NonNull;
+//import androidx.annotation.Nullable;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -219,22 +219,22 @@ public class Outlet implements Serializable {
         this.wallets = wallets;
     }
 
-    @NonNull
-    @Override
-    public String toString() {
-        return name;
-    }
-
-    @Override
-    public boolean equals(@Nullable Object obj) {
-        if (obj instanceof Outlet) {
-            Outlet outlet= (Outlet) obj;
-            return getOutletId().equalsIgnoreCase(outlet.getOutletId());
-        }
-        if (obj instanceof String) {
-            String outletId= (String) obj;
-            return getOutletId().equalsIgnoreCase(outletId);
-        }
-        return false;
-    }
+//    @NonNull
+//    @Override
+//    public String toString() {
+//        return name;
+//    }
+//
+//    @Override
+//    public boolean equals(@Nullable Object obj) {
+//        if (obj instanceof Outlet) {
+//            Outlet outlet= (Outlet) obj;
+//            return getOutletId().equalsIgnoreCase(outlet.getOutletId());
+//        }
+//        if (obj instanceof String) {
+//            String outletId= (String) obj;
+//            return getOutletId().equalsIgnoreCase(outletId);
+//        }
+//        return false;
+//    }
 }
